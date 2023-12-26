@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(3, 14, 43, 0.688);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.logo img {
+  width: 50px;
+  border: none;
+  border-radius: 50px;
+}
+
+.logo img:hover{
+  cursor: pointer;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-buttons button {
+  background-color: #333;
+  color: white;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.navbar-buttons button:hover {
+  background-color: #ffffff92;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+ 
+#mode{
+  background-color: dodgerblue;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.leftside {
+  width: 50%;
+  padding-right: 20px;  
+  box-sizing: border-box;
+}
+
+.rightside {
+  width: 50%;
+}
+
+.rightside img {
+  width: 500px;
+  height: auto;
+  display: block;
+  border: none;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.tobtn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  font-weight: bold;
+}
+
+.tobtn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 132, 0);
+}
+
+.foot {
+  background-color: yellow;
+  width: 100%;
+  margin-top: 40px;
+  height: 10px;
+}
+
